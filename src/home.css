@@ -1,0 +1,35 @@
+/* src/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .big-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .big-button:hover {
+    background-color: #0056b3;
+  }
+
+  .icon {
+    width: 24px; /* Adjust the width of the icon as needed */
+    height: 24px; /* Adjust the height of the icon as needed */
+    margin-right: 10px;
+  }
+  
