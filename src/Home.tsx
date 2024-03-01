@@ -13,6 +13,9 @@ const Home: React.FC = () => {
         <Link to="/pasta">
           <button className="big-button">Pasta di skippy</button>
         </Link>
+        <Link to="/kaaswijn">
+          <button className="big-button">Kaas en Wijn</button>
+        </Link>
       </div>
     </div>
   );
