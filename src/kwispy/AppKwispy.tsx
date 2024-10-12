@@ -41,8 +41,8 @@ const DATA = [
   },
   {
     sectionTitle: 'Wijnen/Cava', data: [
-      { id: 7, title: 'Wijn rood/wit glas', img: WijnGlas, price: 4 },
-      { id: 8, title: 'Wijn rood/wit fles', img: WijnFles, price: 18 },
+      { id: 7, title: 'Wijn rosé/wit glas', img: WijnGlas, price: 4 },
+      { id: 8, title: 'Wijn rosé/wit fles', img: WijnFles, price: 18 },
       { id: 9, title: 'Cava', img: CavaGlas, price: 4 },
       { id: 10, title: 'Cava fles', img: CavaFles, price: 18 },
     ]
