@@ -10,6 +10,7 @@
     "@types/node": "^16.11.25",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "kassa_app": "file:",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.17.0",
@@ -19,7 +20,6 @@
   },
   "scripts": {
     "start": "react-scripts start --publicUrl $PUBLIC_URL",
-    
     "stop": "react-scripts stop",
     "build": "react-scripts build",
     "test": "react-scripts test",

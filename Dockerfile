@@ -1,4 +1,6 @@
-FROM node:alpine3.14
+#FROM node:alpine3.14
+FROM --platform=${TARGETPLATFORM:-linux/amd64} node:alpine3.14
+
 RUN mkdir /app
 WORKDIR /app
 COPY package.json /app
