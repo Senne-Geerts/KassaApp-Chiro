@@ -28,14 +28,14 @@ const DATA = [
   {
     sectionTitle: 'Eten', data: [
       { id: 1, title: 'Kleine pasta', img: PastaKlein, price: 12},
-      { id: 2, title: 'Grote pasta', img:PastaGroot, price: 15 },
+      { id: 2, title: 'Grote pasta', img:PastaGroot, price: 17 },
       
     ]
   },
   {
     sectionTitle:'', data:[
-      { id: 3, title: 'Kleine pasta ZFL', img: PastaKlein, price: 14},
-      { id: 4, title: 'Grote pasta ZFL', img:PastaGroot, price: 17 },
+      { id: 3, title: 'Kleine pasta WW', img: PastaKlein, price: 14},
+      { id: 4, title: 'Grote pasta WW', img:PastaGroot, price: 19 },
     ]
   },
   {
