@@ -38,8 +38,8 @@ const DATA = [{
         { id: 8, title: 'Pintje/kriek', img: Pint, price: 2.5 },
         { id: 9, title: 'Vedett', img: Vedett, price: 3 },
         { id: 10, title: 'Zware bieren', img: ZwareBieren, price: 4 },
-        { id: 11, title: 'Cocktail', img: Cocktail, price: 8 },
-        { id: 12, title: 'Mocktail', img: Mocktail, price: 8 },
+        { id: 11, title: 'Cocktail', img: Cocktail, price: 5 },
+        { id: 12, title: 'Mocktail', img: Mocktail, price: 4 },
         { id: 13, title: 'Koffie/Thee', img: koffieThee, price: 3 }
     ]}
   ];
