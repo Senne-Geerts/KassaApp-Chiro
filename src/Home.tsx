@@ -14,7 +14,7 @@ const Home: React.FC = () => {
           <button className="big-button">Pasta di skippy</button>
         </Link>
         <Link to="/kaaswijn">
-          <button className="big-button">Bivak en Knabbels</button>
+          <button className="big-button">Knabbels en Babbels</button>
         </Link>
       </div>
     </div>

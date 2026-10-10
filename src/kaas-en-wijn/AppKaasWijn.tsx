@@ -3,9 +3,11 @@ import Section from '../common/Section';
 import Item from '../common/Item'
 import '../App.css';
 
-import Nachos from '../img/nachos-snack.svg'
+import Tapas from '../img/noun_tapas.svg'
 import Crouque from '../img/croque.svg'
+import CrouqueGroenten from '../img/noun-vegetable-sandwich-2742355.svg'
 import partysnacks from '../img/fries.svg'
+import loempia from '../img/springroll.svg'
 
 
 import cola from '../img/noun-cola-2239923.svg'
@@ -28,19 +30,21 @@ import koffieThee from '../img/noun-cup-2985154.svg'
 const DATA = [{
     sectionTitle:'',
     data:[
-        { id: 1, title: 'Nachos', img: Nachos, price: 14 },
+        { id: 1, title: 'Tapas', img: Tapas, price: 25 },
         { id: 2, title: 'Crouque', img: Crouque, price: 8},
-        { id: 3, title: 'Partysnacks', img: partysnacks, price: 8 },
-        { id: 4, title: 'Water/frisdrank', img: cola, price: 2.5 },
-        { id: 5, title: 'Fles water', img: flesWater, price: 10},
-        { id: 6, title: 'Wijn/Cava glas', img: WijnGlas, price: 5 },
-        { id: 7, title: 'Wijn/Cava fles', img: WijnFles, price: 20 },
-        { id: 8, title: 'Pintje/kriek', img: Pint, price: 2.5 },
-        { id: 9, title: 'Vedett', img: Vedett, price: 3 },
-        { id: 10, title: 'Zware bieren', img: ZwareBieren, price: 4 },
-        { id: 11, title: 'Cocktail', img: Cocktail, price: 5 },
-        { id: 12, title: 'Mocktail', img: Mocktail, price: 4 },
-        { id: 13, title: 'Koffie/Thee', img: koffieThee, price: 3 }
+        { id: 3, title: 'Crouque Groenten', img: CrouqueGroenten, price: 12},
+        { id: 4, title: 'Partysnacks', img: partysnacks, price: 8 },
+        { id: 5, title: "Loempia's", img: loempia, price: 6 },
+        { id: 6, title: 'Water/frisdrank', img: cola, price: 2.5 },
+        { id: 7, title: 'Fles water', img: flesWater, price: 8},
+        { id: 8, title: 'Wijn/Cava glas', img: WijnGlas, price: 5 },
+        { id: 9, title: 'Wijn/Cava fles', img: WijnFles, price: 20 },
+        { id: 10, title: 'Pintje/kriek', img: Pint, price: 2.5 },
+        { id: 11, title: 'Vedett', img: Vedett, price: 3.5 },
+        { id: 12, title: 'Zware bieren', img: ZwareBieren, price: 4 },
+        { id: 13, title: 'Cocktail', img: Cocktail, price: 8 },
+        { id: 14, title: 'Mocktail', img: Mocktail, price: 6 },
+        { id: 15, title: 'Koffie/Thee', img: koffieThee, price: 3 }
     ]}
   ];
 
@@ -117,7 +121,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1>Kassaprogramma Bivak en Knabbels</h1>
+        <h1>Kassaprogramma Knabbels en Babbels</h1>
         <div className="priceDiv">
           <p className="price">Totaal: € {totPrice}</p>
           <button className="clearButton" onClick={handleClear}>Clear</button>
@@ -129,6 +133,8 @@ function App() {
       <footer className="footer">
         <p>Totale som: € {totalsum}</p>
       </footer>
+      <p>Eh gasten fix terug kaas en wijn man bro</p>
+      <p>EN BEDANK ONS</p>
     </div>
   );
 }
